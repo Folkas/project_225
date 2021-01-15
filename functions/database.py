@@ -17,10 +17,7 @@ def create_tables():
     category (id: int, category: str) 
 
     ebay (id: serial, category: int, title: varchar, price: varchar, urlItem: varchar, urlImage: varchar)
-
-    performs scraping on on ebay UK website for a specified category of item and returns
-    pandas dataframe with information about shop items.
-
+    
     Parameters:
 
     None
