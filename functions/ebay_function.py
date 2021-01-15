@@ -96,5 +96,6 @@ def collect_ebay(no_examples = int, keyword = str) -> pd.DataFrame:
   })
   return ebay
 
-
+if __name__ == "__main__":
+    main()
 
