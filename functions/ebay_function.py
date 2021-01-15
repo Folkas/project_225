@@ -17,13 +17,13 @@ def category_no(keyword = str) -> int:
   int: id number for category
   '''
 
-    if keyword == "bracelet":
-        number = 1
-    elif keyword == "shoes":
-        number = 2
-    elif keyword =="dress":
-        number = 3
-    return number
+  if keyword == "bracelet":
+      number = 1
+  elif keyword == "shoes":
+      number = 2
+  elif keyword =="dress":
+      number = 3
+  return number
 
 
 def collect_ebay(no_examples = int, keyword = str) -> pd.DataFrame:
