@@ -36,8 +36,8 @@ def create_tables():
     port="5432"
     )
     
-    drop_ebay = "DROP TABLE ebay CASCADE"
-    drop_categories="DROP TABLE categories CASCADE"
+    drop_ebay = "DROP TABLE ebay IF EXISTS CASCADE"
+    drop_categories="DROP TABLE categories IF EXISTS CASCADE"
     create_ebay = "CREATE TABLE IF NOT EXISTS ebay (\
     id serial PRIMARY KEY,\
     category int, \
